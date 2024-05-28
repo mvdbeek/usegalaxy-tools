@@ -71,6 +71,7 @@ tools:
   - ae618321f34a
   - cef79931dda5
   - eba36e001f45
+  - cbf488da3b2c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon

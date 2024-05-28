@@ -62,12 +62,14 @@ tools:
   owner: iuc
   revisions:
   - cb157f55b4fd
+  - 39a922d01b0d
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_kallisto_index_builder
   owner: iuc
   revisions:
   - 4c7ebbad42cf
+  - 15c2fc266540
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_snpeff
@@ -80,12 +82,14 @@ tools:
   owner: iuc
   revisions:
   - 1550b1741780
+  - 898b956719ee
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_fetch_ncbi_taxonomy
   owner: devteam
   revisions:
   - 6dd9e00dea95
+  - 34a5799a65fa
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_gemini_database_downloader

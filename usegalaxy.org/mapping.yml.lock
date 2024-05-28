@@ -24,6 +24,7 @@ tools:
   - 749c918495f7
   - c3dd1aeb7d07
   - f6877ad76b00
+  - d5ceb9f3c25b
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
@@ -42,6 +43,7 @@ tools:
   - 3fe632431b68
   - 64f11cf59c6e
   - e188dc7a68e6
+  - 2477830927ec
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion
@@ -144,6 +146,7 @@ tools:
   - 858a65b52cf9
   - 9ed6579f52f3
   - b394de3cf6e8
+  - 3f94a2e3d513
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: metilene

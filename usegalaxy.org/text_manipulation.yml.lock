@@ -35,6 +35,7 @@ tools:
   - 054483e27a35
   - af5eccf83605
   - bfdc6a7ffd3a
+  - 468c71dac78a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: add_input_name_as_column
