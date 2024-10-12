@@ -17,6 +17,7 @@ tools:
   - 7068f48d0ef9
   - 734abc7ac21d
   - 83c7d564b128
+  - 8848455c0270
   - 964579f93c54
   - aad3885b3216
   - ba931a59dd59
@@ -38,6 +39,7 @@ tools:
   - 6c829a430475
   - 75acf92c8fd5
   - a3395b1d871b
+  - a6a475ed58cb
   - b2ae7186d41f
   - c47a0a93ffd2
   tool_panel_section_id: get_data

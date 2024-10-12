@@ -7,23 +7,27 @@ tools:
   revisions:
   - 545054b15d7c
   - 6153e8ada1ee
+  - ab6c14374bc0
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: msnbase_readmsdata
   owner: lecorguille
   revisions:
   - 11ab2081bd4a
+  - 6de175c1f6ef
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_fillpeaks
   owner: lecorguille
   revisions:
   - 26d77e9ceb49
+  - ec9aebabc1d2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_group
   owner: lecorguille
   revisions:
+  - 71572faf938e
   - d45a786cbc40
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -31,17 +35,20 @@ tools:
   owner: lecorguille
   revisions:
   - 5bd125a3f3b0
+  - 6d475a389abc
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_retcor
   owner: lecorguille
   revisions:
   - aa252eec9229
+  - d2b82d89f848
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_xcmsset
   owner: lecorguille
   revisions:
+  - 6550698fe60f
   - b02d1992a43a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -54,6 +61,7 @@ tools:
 - name: matchms_filtering
   owner: recetox
   revisions:
+  - 00e66c401366
   - 357df6c47d92
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -61,23 +69,27 @@ tools:
   owner: recetox
   revisions:
   - 715fe77be601
+  - 9e3c83d2afc3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: ramclustr
   owner: recetox
   revisions:
   - 2ec9253a647e
+  - da7722f665f4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: ramclustr_define_experiment
   owner: recetox
   revisions:
   - 25625114618e
+  - f2c1d0bbb074
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: riassigner
   owner: recetox
   revisions:
+  - af25aa61c611
   - c702620c22b1
   - f6bf8f1f3224
   tool_panel_section_id: metabolomics
@@ -86,17 +98,20 @@ tools:
   owner: recetox
   revisions:
   - b77023c41c76
+  - bf32ae95a06f
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: camera_annotate
   owner: lecorguille
   revisions:
+  - 3d63a762954a
   - 512c2b701d96
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_export_samplemetadata
   owner: lecorguille
   revisions:
+  - 4ea32e46b2d6
   - 94eb263cfab4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -104,12 +119,14 @@ tools:
   owner: lecorguille
   revisions:
   - 024974037c4e
+  - c8bef8f6a1cb
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_summary
   owner: lecorguille
   revisions:
   - 018a9771de28
+  - 444e3ed135e3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: idchoice
@@ -122,5 +139,6 @@ tools:
   owner: melpetera
   revisions:
   - a31f3f802b2b
+  - ec75de7f1e08
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics

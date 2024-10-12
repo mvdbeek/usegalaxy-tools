@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 3cdb96f2855d
+  - ed1ef564da41
   tool_panel_section_id: sequence_contamination_filtering
   tool_panel_section_label: Sequence Contamination Filtering
 - name: ncbi_fcs_adaptor
