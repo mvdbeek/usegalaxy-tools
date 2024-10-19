@@ -28,10 +28,10 @@ tools:
   owner: bgruening
   revisions:
   - 0046692724f9
+  - 2dae863c8f42
   - 6cbe2f30c2d7
   - baabc30154cd
   - d57735dd27b0
   - e77b954f0da5
-  - 2dae863c8f42
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

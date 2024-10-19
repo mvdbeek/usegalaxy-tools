@@ -6,6 +6,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 62acdd96d4a0
   - 6adf98e782f3
   - 6f5349dd5c49
   - 7647e5cd1b8b
@@ -25,6 +26,7 @@ tools:
   - 6c145a6868cc
   - 9d33775ec67d
   - c5d3684f7c4c
+  - d86cb2ce311b
   - e4c99c83dfbf
   - f54f0f0598ad
   tool_panel_section_id: single_cell
@@ -36,15 +38,17 @@ tools:
   - 2d02d9702d3a
   - 3c86f71498bc
   - 5511647110ff
+  - 64388be6d510
   - a03ff8633507
   - b409c2486353
-  - f87ed6503715
   - d636ce5cde16
+  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
   owner: iuc
   revisions:
+  - 4bda4412b8c2
   - 51d945eab1e1
   - 5342ce58cd1e
   - 7b9fafe32c86
@@ -60,12 +64,13 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
+  - 4d8f983cd751
   - 6acb08931836
   - 6f83f8fd381f
+  - 8983e7a04ba7
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
-  - 4d8f983cd751
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -75,10 +80,11 @@ tools:
   - 458e8f43a775
   - 73ab2ac53d06
   - 80d4e2cac903
+  - 974bb00b2f43
   - bf2017df9837
   - c2ef03559dc6
-  - d18e7a6e5cd4
   - c65fce500915
+  - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -88,6 +94,7 @@ tools:
   - 32c5c85cbc12
   - c0b037b12765
   - c5ac926c838f
+  - cfaf5a405371
   - e1c3c2f2a834
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -99,6 +106,7 @@ tools:
   - 93dd15e13e6a
   - ae1e5d9d8972
   - cfc3f5a57dc6
+  - d330b3082107
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -106,6 +114,7 @@ tools:
   owner: iuc
   revisions:
   - 038e32885fec
+  - 0bf7fddf90c7
   - 383dcb0500f9
   - 39e945f0b2c1
   - 6f0d0c784f09
@@ -117,6 +126,7 @@ tools:
   revisions:
   - 3d748954434b
   - 43cb7b5a6fe7
+  - 7e8c677a7b71
   - 8db95f488f0f
   - ed4996a16f7f
   tool_panel_section_id: single_cell
@@ -124,6 +134,7 @@ tools:
 - name: modify_loom
   owner: iuc
   revisions:
+  - 0f1aaff9b22d
   - 4b0adaa31c95
   - 59be31ac9dc3
   - 7784821452ac
@@ -191,6 +202,7 @@ tools:
   - 7fd39eb52f38
   - 8ed4e80e8799
   - ba64b91ed2b9
+  - bf1e0bdec1db
   - e9283529cba1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -200,6 +212,7 @@ tools:
   - 474a69c47184
   - 7143938df06e
   - a1698b43abeb
+  - cc64914b0cf4
   - d82d999fa716
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -207,6 +220,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1e9616772e16
+  - 3027cb62adbd
   - 3a4564b9d685
   - 6b97ffba31da
   tool_panel_section_id: single_cell
@@ -216,6 +230,7 @@ tools:
   revisions:
   - 2861ca3bfe4d
   - 5c62f39aab8f
+  - 64dd8bb151e1
   - 82bd7bf93454
   - ae467daae2f7
   tool_panel_section_id: single_cell
@@ -225,6 +240,7 @@ tools:
   revisions:
   - 22f2957da902
   - 2b6913c840bf
+  - 4cc9362782b4
   - f86b2c3bc459
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -232,6 +248,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 04bdc69f00d7
+  - 4428dba93375
   - 59028945c857
   - 988edd5fa902
   - c4f7fb2b1f70
@@ -240,6 +257,7 @@ tools:
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
+  - 22bd5861706d
   - 3cf0177ed87e
   - 5ec3b715809c
   - 6417cccad133
@@ -252,6 +270,7 @@ tools:
   - 181d61d2f3cd
   - 384cacc40611
   - a147dce191e9
+  - abdb61e4afa3
   - fe727a9496ea
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -262,6 +281,7 @@ tools:
   - ad70b3552c99
   - bd4a244faeb8
   - e31937baa330
+  - ea91cfd0444e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
@@ -269,6 +289,7 @@ tools:
   revisions:
   - 15e8a4c60418
   - 2ccd9f9e2cd0
+  - 36735850e461
   - 621d7d7a605f
   - 8dc3d8941217
   tool_panel_section_id: single_cell
@@ -280,12 +301,14 @@ tools:
   - 7042ce140caa
   - 81c34e67f262
   - a57c0538e56b
+  - d8f5224005bb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
   owner: ebi-gxa
   revisions:
   - 35f6611fb8c3
+  - 7d5c97823f8b
   - 9fafbfcdee0d
   - a71086d2e55f
   tool_panel_section_id: single_cell
@@ -296,12 +319,14 @@ tools:
   - 31e5e6d606ef
   - 53a251c6d991
   - 825dfd66e3fb
+  - a4774b7b2e85
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_parameter_iterator
   owner: ebi-gxa
   revisions:
   - 4e4420ed5292
+  - 73d43034c860
   - a8c73996ac50
   - b9dd12ab0550
   tool_panel_section_id: single_cell
@@ -309,6 +334,7 @@ tools:
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
+  - 078aa23c9374
   - 4d13979de6ee
   - 9afcfcd1d215
   - c8391a25dee3
@@ -320,6 +346,7 @@ tools:
   - 2cef3539f420
   - 3111bcf039dd
   - 5bea4f3c4edf
+  - c354af93f567
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gtf2gene_list
@@ -379,6 +406,7 @@ tools:
 - name: scanpy_regress_variable
   owner: ebi-gxa
   revisions:
+  - 0bab2ae44e7a
   - 1200b55768ce
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -431,12 +459,14 @@ tools:
 - name: sinto_barcode
   owner: iuc
   revisions:
+  - d0f56ac6bb60
   - d1b34ac42b8f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_fragments
   owner: iuc
   revisions:
+  - 03a04f48b922
   - 29e6bfb2cf49
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

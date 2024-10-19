@@ -6,6 +6,7 @@ tools:
 - name: bioext_bealign
   owner: iuc
   revisions:
+  - 4ad7321205c9
   - 8a7462c0ac14
   - a07a2d9ddd42
   - a287431cdf4f
@@ -23,8 +24,8 @@ tools:
   - 0d4acadabb04
   - 749c918495f7
   - c3dd1aeb7d07
-  - f6877ad76b00
   - d5ceb9f3c25b
+  - f6877ad76b00
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
@@ -40,10 +41,10 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 2477830927ec
   - 3fe632431b68
   - 64f11cf59c6e
   - e188dc7a68e6
-  - 2477830927ec
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion
@@ -86,6 +87,7 @@ tools:
   - 6da3972210ee
   - a6ea26c1f225
   - b4e6819b25ef
+  - cf1322aeb137
   - d82648ad25a3
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -113,6 +115,7 @@ tools:
   - 13022c3d3076
   - 178bdbdb6d24
   - 42ce70172b72
+  - 45795f582ae9
   - 5ef7ec16b04f
   - 79b885ce78d7
   - a6fba3d92531
@@ -142,11 +145,12 @@ tools:
   owner: iuc
   revisions:
   - 3171f7f52576
+  - 3f94a2e3d513
+  - 456d8ebb6a28
   - 517464809c33
   - 858a65b52cf9
   - 9ed6579f52f3
   - b394de3cf6e8
-  - 3f94a2e3d513
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: metilene
@@ -162,6 +166,7 @@ tools:
   - 39c21be8f8b9
   - 6c95c380bfa7
   - 75e15ba3b4c1
+  - e9bf680c292b
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: batched_lastz
@@ -169,6 +174,7 @@ tools:
   revisions:
   - 007990f98551
   - 103538753e81
+  - 43e72105f473
   - 78c4cef2b5a9
   - a68e128cdb1a
   tool_panel_section_id: mapping

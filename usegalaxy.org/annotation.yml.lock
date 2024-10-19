@@ -25,6 +25,7 @@ tools:
   revisions:
   - 09855551d713
   - 28433faa6e42
+  - bd0e53f3a891
   - ca6d970d931c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -34,6 +35,7 @@ tools:
   - 6519ebe25019
   - 7be22100e5e1
   - dc027fa56d55
+  - f1e653756174
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: bp_genbank2gff3
@@ -55,6 +57,7 @@ tools:
   - 0d243f458b53
   - 1e62c28ba91d
   - 2a5b8b9936bf
+  - 2babe6d5c561
   - 4048d82f0c88
   - 41030a6c03b7
   - 46ae58b1d792
@@ -199,6 +202,7 @@ tools:
   - 78608ec02d62
   - 809e42326fc2
   - 91887494eb97
+  - 9b2b122d0415
   - dbe2b2204555
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -229,6 +233,7 @@ tools:
   - 037a11682176
   - 200c378d85f3
   - 2c68b0c38785
+  - 51dd22484644
   - 809dfc93d593
   - ac8250086ac3
   - ba6f87115e13
@@ -251,6 +256,7 @@ tools:
   revisions:
   - 02d81b994ef5
   - 4934c0ac6197
+  - 9793bc5d741b
   - adc0645b945c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -303,6 +309,7 @@ tools:
   revisions:
   - 45d4d26e01b5
   - c147914c9f02
+  - f5114c60dc95
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: sortmerna
@@ -319,6 +326,7 @@ tools:
   revisions:
   - 4863b1dbe8f0
   - 77cfe958b5ea
+  - b6ea129299ea
   - f61366a4a14e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -333,6 +341,7 @@ tools:
 - name: freyja_demix
   owner: iuc
   revisions:
+  - 53b22b7dff19
   - c0a0e79d7196
   - fc6252e78d5b
   tool_panel_section_id: annotation
@@ -342,6 +351,7 @@ tools:
   revisions:
   - 0ceb9fb0f4ce
   - 1f89eeba299a
+  - 948903a8555d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cooc_mutbamscan
@@ -351,6 +361,7 @@ tools:
   - 9f1660129403
   - cd0484c5f9f1
   - d58a57db7a96
+  - f54e0ba38257
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cooc_tabmut
@@ -359,12 +370,14 @@ tools:
   - 4be399803856
   - 52bd683c6d3f
   - 579538ff939d
+  - cb0d9eb033ef
   - eeb5c054ecf8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeatmodeler
   owner: csbl
   revisions:
+  - 4a172d211285
   - 8661b2607b7e
   - fbe22cb3c869
   tool_panel_section_id: annotation
@@ -379,6 +392,7 @@ tools:
 - name: funannotate_compare
   owner: iuc
   revisions:
+  - 0418d28136de
   - 30f08d74024f
   - 57c6718cbfcc
   - a7ce2601500c
@@ -392,6 +406,7 @@ tools:
   - 3bbe70fef6df
   - 582fd74dc2a1
   - 756376aeb1ae
+  - 9c15ca7e764e
   - 9feee7fc49a1
   - d0336d67702b
   tool_panel_section_id: annotation
@@ -400,6 +415,7 @@ tools:
   owner: iuc
   revisions:
   - 1bc5a03faf2e
+  - 4b96ced19f75
   - 51b6ee65ef7f
   - f31125bb85ea
   - f77d7b685bb3
@@ -421,6 +437,7 @@ tools:
   owner: bgruening
   revisions:
   - 1ac12c0cc7a0
+  - 7ccc6234b54e
   - 8e9e228c54c4
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -431,7 +448,7 @@ tools:
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
-  - e95d52d295d7
   - c8ac28e8ac44
+  - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

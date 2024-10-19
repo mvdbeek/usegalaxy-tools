@@ -24,6 +24,7 @@ tools:
   - 5bf899c13979
   - 6e53e565fc6a
   - a8305cf0c951
+  - ae2aad0a6d50
   - df0c8d0a5992
   - f2843df56434
   tool_panel_section_id: rna_seq
@@ -69,9 +70,9 @@ tools:
   - 76d290331481
   - 914cfcba0ec8
   - ae618321f34a
+  - cbf488da3b2c
   - cef79931dda5
   - eba36e001f45
-  - cbf488da3b2c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -145,6 +146,7 @@ tools:
   owner: iuc
   revisions:
   - 3ea5a2a63fa2
+  - 4014de1b6daf
   - 4074fc1940e2
   - 44959aa06aeb
   - 5ec75f5dae3c
@@ -168,6 +170,7 @@ tools:
 - name: htseq_count
   owner: lparsons
   revisions:
+  - 4418229c501e
   - 67b0b160903a
   - 916cb26bd9d3
   tool_panel_section_id: rna_seq
@@ -176,6 +179,7 @@ tools:
   owner: iuc
   revisions:
   - 0f710191a66d
+  - 3c5e024a18cf
   - 3c97c841a443
   - f99dd58de04f
   tool_panel_section_id: rna_seq
@@ -183,6 +187,7 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
+  - 22cf48ad7b16
   - 6a6717a5f421
   - 86285ddd4512
   - cf747d1bd79a
@@ -258,12 +263,14 @@ tools:
 - name: qualimap_rnaseq
   owner: iuc
   revisions:
+  - 35e00077ba61
   - 43a1c3e1a4d0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: qualimap_counts
   owner: iuc
   revisions:
+  - 72927fc9e9ed
   - d696cf0a9622
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -430,6 +437,7 @@ tools:
 - name: tximport
   owner: iuc
   revisions:
+  - 0bcc35b10569
   - 1906cb429215
   - 206a71a69161
   tool_panel_section_id: rna_seq
@@ -457,6 +465,7 @@ tools:
   owner: iuc
   revisions:
   - 3f9ff31c88bb
+  - 9d93999d9028
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: targetfinder

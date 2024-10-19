@@ -61,15 +61,15 @@ tools:
 - name: data_manager_bowtie_index_builder
   owner: iuc
   revisions:
-  - cb157f55b4fd
   - 39a922d01b0d
+  - cb157f55b4fd
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_kallisto_index_builder
   owner: iuc
   revisions:
-  - 4c7ebbad42cf
   - 15c2fc266540
+  - 4c7ebbad42cf
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_snpeff
@@ -88,8 +88,8 @@ tools:
 - name: data_manager_fetch_ncbi_taxonomy
   owner: devteam
   revisions:
-  - 6dd9e00dea95
   - 34a5799a65fa
+  - 6dd9e00dea95
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_gemini_database_downloader
@@ -101,6 +101,7 @@ tools:
 - name: data_manager_build_kraken2_database
   owner: iuc
   revisions:
+  - 90b4d4f0a3a4
   - e4b4837f06f5
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -114,6 +115,7 @@ tools:
 - name: data_manager_mapseq
   owner: iuc
   revisions:
+  - 23511530b8fd
   - 4cd97cc67061
   - dbf2735e8480
   tool_panel_section_id: data_managers
