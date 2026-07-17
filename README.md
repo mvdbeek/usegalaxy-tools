@@ -58,6 +58,24 @@ And add the new shed tool conf:
 tool_config_file: ...,/cvmfs/sandbox.galaxyproject.org/config/shed_tool_conf.xml
 ```
 
+Galaxy releases with the cached tool source store feature can also use the
+versioned index shipped beside that tool conf. Enable the cached toolbox and
+map the stable alias carried by `shed_tool_conf.xml` to the published cohort
+directory:
+
+```yml
+use_cached_toolbox: true
+tool_source_stores:
+  cvmfs_sandbox:
+    external_store_directory: /cvmfs/sandbox.galaxyproject.org/config/tool_source_store
+```
+
+Manifest-aware Galaxy versions select the newest compatible cohort
+automatically. Versions that understand named stores but predate automatic
+resolution should configure the compatible cohort with an explicit `url`;
+still older Galaxy versions ignore the `store` attribute and load tools
+normally.
+
 In your destination you should set:
 
 ```
@@ -81,7 +99,7 @@ Once preconditions are met:
 
 1. Comment `@galaxybot test this` to test deployment.
 2. **Review the Jenkins test console output.** Just because it is green does not mean it succeeded. You are looking for two things:
-   1. **#### contents of OverlayFS upper mount (will be published)** contains (at least) `config/shed_tool_conf.xml` and `shed_tools/.../the_repos_you_installed`
+   1. **#### contents of OverlayFS upper mount (will be published)** contains (at least) `config/shed_tool_conf.xml`, each active `config/tool_source_store/<cohort>/sources.sqlite` and matching `.manifest.json`, and `shed_tools/.../the_repos_you_installed`
    2. **#### diff of shed_tool_conf.xml** contains the tools in the repos you installed
 3. Comment `galaxybot deploy this` to deploy. This will cause the **default** test on the PR to run again, and the details link for the test will be updated to a new Jenkins build.
 4. **Review the Jenkins deploy console output.** Just because it is green does not mean it succeeded.
@@ -111,3 +129,39 @@ Once preconditions are met:
 6. If these are new tools and not just new versions of already installed tools, review whether the tool uses multiple cores (the presence of `${GALAXY_SLOTS:-N}` in `<command>`) and whether increased memory is required and PR changes to the TPV config in https://github.com/galaxyproject/usegalaxy-playbook/
 
 Only approved tool installers can install tools. Request Jenkins access and admission to the Github Team from project admins for approval.
+
+## Maintaining tool source store cohorts
+
+The publisher reads `.ci/tool_source_producers.conf`. Each active cohort maps
+to one immutable producer:
+
+```bash
+declare -g -A TOOL_SOURCE_STORE_PRODUCERS=(
+    [v1]='pypi:26.2.0'
+    [v2]='git:https://github.com/galaxyproject/galaxy.git@0123456789abcdef0123456789abcdef01234567'
+)
+```
+
+`pypi:` installs the exact `galaxy==VERSION` metapackage. `git:` requires a
+full commit SHA and prepares a full detached Galaxy checkout. Do not use a
+branch, tag, rolling Docker image, or an abbreviated SHA as a producer: the
+same cohort must remain reproducible and its manifest provenance is generated
+by Galaxy itself.
+
+On every tool publication, Jenkins rebuilds all active cohorts from the same
+post-install `shed_tool_conf.xml`, validates each automatically generated
+`sources.sqlite.manifest.json`, and places the database and manifest in the
+OverlayFS upper layer. They become visible together with the tool XML and
+tool-conf update in the existing single CVMFS transaction. A population or
+manifest validation failure aborts the publication.
+
+When a producer can no longer run but old Galaxy instances still require its
+schema, move the cohort from `TOOL_SOURCE_STORE_PRODUCERS` to
+`FROZEN_TOOL_SOURCE_STORE_COHORTS`. Jenkins then retains and validates the
+published pair without rebuilding it. Remove a frozen cohort only after its
+last consumer has moved to another compatible cohort.
+
+The producer matrix is intentionally empty until the first manifest-capable
+Galaxy release or immutable Galaxy commit is selected. With no active or
+frozen cohorts, the publisher leaves `shed_tool_conf.xml` unchanged and skips
+bundle generation.

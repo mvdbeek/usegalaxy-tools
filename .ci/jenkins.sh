@@ -64,6 +64,8 @@ INSTALL_DATABASE=
 SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
 SHED_DATA_MANAGER_CONFIG=
+TOOL_SOURCE_STORE_NAME=
+TOOL_SOURCE_PRODUCER_IMAGE=
 SSH_MASTER_SOCKET=
 WORKDIR=
 USER_UID="$(id -u)"
@@ -173,6 +175,7 @@ function check_bot_command() {
 function load_repo_configs() {
     log 'Loading repository configs'
     . ./.ci/repos.conf
+    . ./.ci/tool_source_producers.conf
 }
 
 
@@ -230,6 +233,7 @@ function set_repo_vars() {
     CONDA_EXEC="${CONDA_EXECS[$REPO]}"
     INSTALL_DATABASE="${INSTALL_DATABASES[$REPO]}"
     SHED_TOOL_CONFIG="${SHED_TOOL_CONFIGS[$REPO]}"
+    TOOL_SOURCE_STORE_NAME="${TOOL_SOURCE_STORE_NAMES[$REPO]}"
     SHED_TOOL_DIR="${SHED_TOOL_DIRS[$REPO]}"
     SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
     SHED_DATA_MANAGER_CONFIG="${SHED_DATA_MANAGER_CONFIGS[$REPO]}"
@@ -418,6 +422,8 @@ function prep_for_galaxy_run() {
     fi
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
+    copy_to ".ci/tool_source_store.py"
+    copy_to ".ci/run_tool_source_producer.sh"
     GALAXY_DATABASE_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.database.XXXXXX)
     if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
         exec_on mv "${WORKDIR}/${GALAXY_TEMPLATE_DB}" "${GALAXY_DATABASE_TMPDIR}"
@@ -426,6 +432,7 @@ function prep_for_galaxy_run() {
         log "Fetching latest Galaxy image"
         exec_on docker pull "$GALAXY_DOCKER_IMAGE"
     fi
+    TOOL_SOURCE_PRODUCER_IMAGE="$GALAXY_DOCKER_IMAGE"
 }
 
 
@@ -724,6 +731,65 @@ function check_for_repo_changes() {
 }
 
 
+function build_tool_source_stores() {
+    local active_count="${#TOOL_SOURCE_STORE_PRODUCERS[@]}"
+    local frozen_count="${#FROZEN_TOOL_SOURCE_STORE_COHORTS[@]}"
+    [ "$active_count" -gt 0 -o "$frozen_count" -gt 0 ] || {
+        log "No tool source store cohorts configured"
+        return 0
+    }
+
+    local stc="${SHED_TOOL_CONFIG%,*}"
+    local mounted_tool_conf="${OVERLAYFS_MOUNT}${stc##*${REPO}}"
+    local container_tool_conf="/cvmfs/${REPO}${stc##*${REPO}}"
+    log "Stamping stable tool source store alias ${TOOL_SOURCE_STORE_NAME}"
+    exec_on python3 "${WORKDIR}/tool_source_store.py" stamp \
+        --tool-conf "$mounted_tool_conf" --store "$TOOL_SOURCE_STORE_NAME"
+
+    local cohort producer work_path container_work bundle_path
+    for cohort in "${!TOOL_SOURCE_STORE_PRODUCERS[@]}"; do
+        producer="${TOOL_SOURCE_STORE_PRODUCERS[$cohort]}"
+        work_path="${WORKDIR}/tool-source-${cohort}"
+        container_work="/work/tool-source-${cohort}"
+        bundle_path="${OVERLAYFS_MOUNT}/config/tool_source_store/${cohort}"
+        log "Building tool source store cohort ${cohort} with ${producer}"
+        exec_on rm -rf "$work_path"
+        exec_on mkdir -p "${work_path}/output"
+        exec_on python3 "${WORKDIR}/tool_source_store.py" config \
+            --output "${work_path}/galaxy.yml" \
+            --shed-tool-conf "$container_tool_conf" \
+            --output-dir "${container_work}/output" \
+            --store "$TOOL_SOURCE_STORE_NAME"
+        exec_on docker run --rm --user "${USER_UID}:${USER_GID}" \
+            -e HOME=/work -v "${WORKDIR}:/work" \
+            -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}:ro" \
+            --workdir /work "$TOOL_SOURCE_PRODUCER_IMAGE" \
+            bash /work/run_tool_source_producer.sh "$producer" "$cohort" \
+            "${container_work}/galaxy.yml" "$TOOL_SOURCE_STORE_NAME" "$TOOL_SOURCE_STORE_PARALLEL"
+        exec_on test -s "${work_path}/output/sources.sqlite"
+        exec_on python3 "${WORKDIR}/tool_source_store.py" validate \
+            --manifest "${work_path}/output/sources.sqlite.manifest.json" \
+            --cohort "$cohort" --store "$TOOL_SOURCE_STORE_NAME" --producer "$producer"
+        exec_on rm -rf "$bundle_path"
+        exec_on mkdir -p "$bundle_path"
+        exec_on cp "${work_path}/output/sources.sqlite" \
+            "${work_path}/output/sources.sqlite.manifest.json" "$bundle_path/"
+    done
+
+    for cohort in "${FROZEN_TOOL_SOURCE_STORE_COHORTS[@]}"; do
+        if [ -n "${TOOL_SOURCE_STORE_PRODUCERS[$cohort]+configured}" ]; then
+            log_exit_error "Tool source store cohort ${cohort} is both active and frozen"
+        fi
+        bundle_path="${OVERLAYFS_MOUNT}/config/tool_source_store/${cohort}"
+        log "Validating frozen tool source store cohort ${cohort}"
+        exec_on test -s "${bundle_path}/sources.sqlite"
+        exec_on python3 "${WORKDIR}/tool_source_store.py" validate \
+            --manifest "${bundle_path}/sources.sqlite.manifest.json" \
+            --cohort "$cohort" --store "$TOOL_SOURCE_STORE_NAME"
+    done
+}
+
+
 function post_install() {
     log "Running post-installation tasks"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+r -not -perm -o+r -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+r"
@@ -760,6 +826,8 @@ function do_install_local() {
     check_for_repo_changes
     stop_galaxy
     clean_preconfigured_container
+    build_tool_source_stores
+    show_paths
     post_install
     if $PUBLISH; then
         start_ssh_control
@@ -781,6 +849,8 @@ function do_install_remote() {
     check_for_repo_changes
     stop_galaxy
     clean_preconfigured_container
+    build_tool_source_stores
+    show_paths
     post_install
     $PUBLISH && publish_transaction || abort_transaction
     stop_ssh_control
