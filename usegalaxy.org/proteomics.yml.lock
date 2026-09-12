@@ -10,6 +10,7 @@ tools:
   - 3634c90301af
   - 3ec27b4cee7c
   - 7fdd9119cc4f
+  - c9b13d4069c8
   - f35bb9d0c93e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
@@ -132,5 +133,6 @@ tools:
   owner: iuc
   revisions:
   - 5f7a01f8ea28
+  - 9d65257c56de
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

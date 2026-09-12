@@ -34,12 +34,13 @@ tools:
   revisions:
   - 277313130da5
   - 2d02d9702d3a
+  - 2e6029e47eb5
   - 3c86f71498bc
   - 5511647110ff
   - a03ff8633507
   - b409c2486353
-  - f87ed6503715
   - d636ce5cde16
+  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -60,12 +61,12 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
+  - 4d8f983cd751
   - 6acb08931836
   - 6f83f8fd381f
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
-  - 4d8f983cd751
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -75,10 +76,11 @@ tools:
   - 458e8f43a775
   - 73ab2ac53d06
   - 80d4e2cac903
+  - 80fe16f87825
   - bf2017df9837
   - c2ef03559dc6
-  - d18e7a6e5cd4
   - c65fce500915
+  - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -117,6 +119,7 @@ tools:
   revisions:
   - 3d748954434b
   - 43cb7b5a6fe7
+  - 637e50759b72
   - 8db95f488f0f
   - ed4996a16f7f
   tool_panel_section_id: single_cell
@@ -207,6 +210,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1e9616772e16
+  - 3027cb62adbd
   - 3a4564b9d685
   - 6b97ffba31da
   tool_panel_section_id: single_cell
@@ -280,6 +284,7 @@ tools:
   - 7042ce140caa
   - 81c34e67f262
   - a57c0538e56b
+  - d8f5224005bb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
@@ -387,6 +392,7 @@ tools:
   revisions:
   - 282819d09a4f
   - 2cfd0db49bbc
+  - 48f0fb3061b1
   - 7ffaa0968da3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -395,12 +401,14 @@ tools:
   revisions:
   - 7705cc75ac18
   - 8c64a2da3869
+  - fde4c972e7c5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
   owner: bgruening
   revisions:
   - 22232092be53
+  - b5185a4f5209
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_deconvolution
@@ -408,6 +416,7 @@ tools:
   revisions:
   - 2ba99a52bd44
   - 56371b5a2da9
+  - 8cd2ecfa2e61
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_compare
@@ -426,6 +435,7 @@ tools:
   owner: iuc
   revisions:
   - 29f5f25b9935
+  - 4f1baeda3aca
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_barcode

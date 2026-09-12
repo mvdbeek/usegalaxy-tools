@@ -6,6 +6,7 @@ tools:
 - name: samtools_sort
   owner: devteam
   revisions:
+  - 2ce517eb9af2
   - 6c2c1836728b
   - a577ea614bed
   - e613c1ad4c4c
@@ -14,6 +15,7 @@ tools:
 - name: samtools_mpileup
   owner: devteam
   revisions:
+  - 0668270db5ba
   - 9da0311ab1dd
   - b61f5d6a7f25
   - fa7ad9b89f4a
@@ -23,6 +25,7 @@ tools:
   owner: devteam
   revisions:
   - 22970df7a40e
+  - a0d8e49a018c
   - fe34990e5ce7
   - fefd89ab563c
   tool_panel_section_id: sam_bam
@@ -105,6 +108,7 @@ tools:
 - name: samtools_reheader
   owner: devteam
   revisions:
+  - 2b901d1b7aef
   - 30388d878f81
   - bb8cfc6f6e0c
   - d7b4851d1971
@@ -226,6 +230,7 @@ tools:
 - name: samtools_fastx
   owner: iuc
   revisions:
+  - 4bde991b8037
   - 66e23b11feae
   - 720217c23995
   - a8d69aee190e

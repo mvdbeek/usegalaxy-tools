@@ -44,6 +44,7 @@ tools:
   revisions:
   - a256278e5bff
   - ad90c2da4f38
+  - defd3e9ddd2d
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_hisat2_index_builder
@@ -55,21 +56,22 @@ tools:
 - name: data_manager_star_index_builder
   owner: iuc
   revisions:
+  - 71c994a11f71
   - d63c1442407f
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_bowtie_index_builder
   owner: iuc
   revisions:
-  - cb157f55b4fd
   - 39a922d01b0d
+  - cb157f55b4fd
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_kallisto_index_builder
   owner: iuc
   revisions:
-  - 4c7ebbad42cf
   - 15c2fc266540
+  - 4c7ebbad42cf
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_snpeff
@@ -88,8 +90,8 @@ tools:
 - name: data_manager_fetch_ncbi_taxonomy
   owner: devteam
   revisions:
-  - 6dd9e00dea95
   - 34a5799a65fa
+  - 6dd9e00dea95
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_gemini_database_downloader

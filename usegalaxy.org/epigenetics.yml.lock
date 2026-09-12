@@ -41,6 +41,7 @@ tools:
 - name: hicup_mapper
   owner: bgruening
   revisions:
+  - 4c5e6a5d1f26
   - 70427be35bf2
   - be104dee2833
   tool_panel_section_id: epigenetics

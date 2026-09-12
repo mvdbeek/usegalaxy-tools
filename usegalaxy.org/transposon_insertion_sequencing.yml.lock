@@ -38,6 +38,7 @@ tools:
   owner: iuc
   revisions:
   - 8fc50fe60127
+  - a6c8b6e47c51
   - f50807720df1
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
@@ -46,5 +47,6 @@ tools:
   revisions:
   - 3f5fc4b09496
   - 4aaabd55eab8
+  - d516fc63b6e5
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing

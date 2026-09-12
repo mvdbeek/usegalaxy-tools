@@ -8,6 +8,7 @@ tools:
   revisions:
   - 05143043ca13
   - 1588f9076e32
+  - 1d2a478bb514
   - 222c02df5d55
   - 4a229a7ad638
   - 6fabdcde0214
@@ -27,8 +28,8 @@ tools:
 - name: plotly_ml_performance_plots
   owner: bgruening
   revisions:
-  - 62e3a4e8c54c
   - 1c5dcef5ce0f
+  - 62e3a4e8c54c
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_regression_performance_plots
@@ -140,6 +141,7 @@ tools:
   revisions:
   - 067592b6b312
   - 21e491ad532a
+  - 86ec2f06de3c
   - 94fe43e75ddc
   - b2860df42e16
   - b9e31c5c01c7
@@ -210,6 +212,7 @@ tools:
   revisions:
   - 0e7290688b50
   - 637cf21db396
+  - 63d211052ffb
   - 9c52a8130729
   - d6c41b454cc1
   - d8305f18060e

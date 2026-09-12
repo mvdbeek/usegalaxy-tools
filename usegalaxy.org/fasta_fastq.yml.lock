@@ -28,6 +28,7 @@ tools:
   - de6cebe3c043
   - e4691e1589d3
   - f5fdf41c08b8
+  - f6168dd17f82
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -42,6 +43,7 @@ tools:
   revisions:
   - 1d8fe9bc4cb0
   - 65b93b623c77
+  - 68386e630362
   - c59d48774d03
   - dbf9c561ef29
   tool_panel_section_id: fasta_fastq
@@ -49,6 +51,7 @@ tools:
 - name: fastx_trimmer
   owner: devteam
   revisions:
+  - 1ea2ae5afb28
   - 547e8d00f11c
   - 61b4cedc8934
   - 73194cdd4f57
@@ -60,6 +63,7 @@ tools:
   - 0c2907307ba4
   - 177f0621c266
   - 6027ef51ef91
+  - 7566b751e769
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_clipper
@@ -68,6 +72,7 @@ tools:
   - 736b8f6ee456
   - 90858c306551
   - b8658f852bc7
+  - c60cf18ec2b0
   - cb1e251cac37
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -76,6 +81,7 @@ tools:
   revisions:
   - 64e9a6afdd0c
   - 7b4468117008
+  - b1e332a385f1
   - ce9cd02d5b88
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -89,6 +95,7 @@ tools:
 - name: fastx_renamer
   owner: devteam
   revisions:
+  - 0ffae348abae
   - 3599f5451ee2
   - b29d37ca9e41
   - f984bb114520
@@ -98,12 +105,14 @@ tools:
   owner: devteam
   revisions:
   - 0b7ec11b3c7c
+  - 229caeddb2df
   - 4bedca26c133
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 34edfa69c149
   - 529bccd5e4a1
   - 567d5b3c52b1
   - d5e9e83cd3d8
@@ -114,12 +123,14 @@ tools:
   revisions:
   - 045f0e1043f7
   - 54053ea6c77e
+  - 86713dc416ec
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_joiner
   owner: devteam
   revisions:
   - 09a2199cd356
+  - 115f6bb3ae79
   - 822cc1e6274e
   - c885369b207b
   tool_panel_section_id: fasta_fastq
@@ -129,6 +140,7 @@ tools:
   revisions:
   - 2ccb8dcabddc
   - 3e396e702cea
+  - acb5090e281f
   - ef49268ee579
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -137,6 +149,7 @@ tools:
   revisions:
   - 03d57fea6482
   - b7ce72b00e62
+  - c48cf4699be7
   - f3936d0632cb
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -185,6 +198,7 @@ tools:
   - 06934412f56d
   - 10b75444feae
   - 81a9090d6df3
+  - ff7d49ec777f
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_combiner
@@ -228,6 +242,7 @@ tools:
   - 2d0d13b0b0f1
   - 33794bdb7fe0
   - b63b2bfb3ea3
+  - fe86fb89562d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer_by_quality
@@ -298,6 +313,7 @@ tools:
   revisions:
   - 2f804526f5fd
   - b4c6f054210a
+  - f69501361cec
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: sickle
@@ -345,6 +361,7 @@ tools:
   owner: peterjc
   revisions:
   - 141612f8c3e3
+  - 85ef5f5a0562
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_extract

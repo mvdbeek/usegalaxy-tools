@@ -6,6 +6,7 @@ tools:
 - name: vcffilter
   owner: devteam
   revisions:
+  - 4bdc111b2470
   - 81972652519c
   - fa24bf0598f4
   tool_panel_section_id: vcf_bcf
@@ -243,6 +244,7 @@ tools:
   owner: iuc
   revisions:
   - 0117c6d2ab96
+  - 1c7dee9f0bf8
   - 277719af4dd7
   - 656a916779fe
   - 6ca7c55a27e8
@@ -443,6 +445,7 @@ tools:
   revisions:
   - 01d6b7d6365e
   - 0238f68ad641
+  - 2b7e7aa56527
   - 4891338c6c54
   - 635532ff1ac9
   - 6d35a3780bfd
@@ -454,6 +457,7 @@ tools:
   revisions:
   - 03e30f06f15f
   - 2f4eef1f0d22
+  - 433f1673736a
   - 5d98fe06e4ae
   - 701e01819e52
   - dfef7a353ed0
@@ -464,6 +468,7 @@ tools:
   owner: iuc
   revisions:
   - 18cf9de1cf73
+  - 2261ddc23215
   - 242753783b68
   - 77e0bd62b554
   - 8c3ff4ef1190
@@ -474,6 +479,7 @@ tools:
 - name: bcftools_norm
   owner: iuc
   revisions:
+  - 262d695b5456
   - 6deb4d549bc9
   - a62e934346f5
   - c077f71d351f
@@ -502,6 +508,7 @@ tools:
   - 7fe09ad6a939
   - ceb03be4f31b
   - d9f9294ccccc
+  - f62897ab1008
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_gtcheck

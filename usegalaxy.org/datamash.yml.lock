@@ -9,6 +9,7 @@ tools:
   - 2f3c6f2dcf39
   - 4c07ddedc198
   - 746e8e4bf929
+  - aaafc0ac4dd2
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
 - name: datamash_transpose
@@ -17,6 +18,7 @@ tools:
   - 22c2a1ac7ae3
   - 374cb875d38a
   - a513e3fbb4c5
+  - a884245d3b3a
   - ac092723240d
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
@@ -24,6 +26,7 @@ tools:
   owner: iuc
   revisions:
   - 0f1724dd59d2
+  - b5cc41ad28b3
   - b8a457820315
   - f198773344e4
   tool_panel_section_id: datamash

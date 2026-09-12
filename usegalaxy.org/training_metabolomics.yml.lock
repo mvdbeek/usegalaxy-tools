@@ -31,6 +31,7 @@ tools:
   owner: lecorguille
   revisions:
   - 5bd125a3f3b0
+  - 8372531e6c92
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_retcor
@@ -86,6 +87,7 @@ tools:
   owner: recetox
   revisions:
   - b77023c41c76
+  - e9fa79966366
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: camera_annotate
@@ -121,6 +123,7 @@ tools:
 - name: intensity_checks
   owner: melpetera
   revisions:
+  - 2e580585782e
   - a31f3f802b2b
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics

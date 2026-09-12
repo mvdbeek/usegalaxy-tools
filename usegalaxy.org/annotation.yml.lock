@@ -9,6 +9,7 @@ tools:
   - 111884f0d912
   - 8a22554cdde2
   - bf68eb663bc3
+  - c105b66eaab1
   - eaee459f3d69
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -199,6 +200,7 @@ tools:
   - 78608ec02d62
   - 809e42326fc2
   - 91887494eb97
+  - 9b2b122d0415
   - dbe2b2204555
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -319,6 +321,7 @@ tools:
   revisions:
   - 4863b1dbe8f0
   - 77cfe958b5ea
+  - b6ea129299ea
   - f61366a4a14e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -431,7 +434,7 @@ tools:
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
-  - e95d52d295d7
   - c8ac28e8ac44
+  - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

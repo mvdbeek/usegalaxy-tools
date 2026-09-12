@@ -55,6 +55,7 @@ tools:
   owner: iuc
   revisions:
   - 62adf13b86ea
+  - 74ec758e63a4
   - 9a7c5b6d8f1e
   - 9fd8b69e6e68
   - b47c006d90c5
@@ -69,9 +70,9 @@ tools:
   - 76d290331481
   - 914cfcba0ec8
   - ae618321f34a
+  - cbf488da3b2c
   - cef79931dda5
   - eba36e001f45
-  - cbf488da3b2c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -209,6 +210,7 @@ tools:
 - name: deg_annotate
   owner: iuc
   revisions:
+  - e81fbbea6e8f
   - e98d4ab5b5bc
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -457,6 +459,7 @@ tools:
   owner: iuc
   revisions:
   - 3f9ff31c88bb
+  - c312b506ee6f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: targetfinder

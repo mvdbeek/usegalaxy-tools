@@ -38,6 +38,7 @@ tools:
 - name: snpsift
   owner: iuc
   revisions:
+  - 0abc5513f795
   - 2b3e65a4252f
   - 2e497a770bca
   - 5fab4f81391d
@@ -91,6 +92,7 @@ tools:
 - name: snippy
   owner: iuc
   revisions:
+  - 08d22d220254
   - 32f2211eeec3
   - 3fe8ef358d66
   - 5bbf9eada9c2
@@ -282,6 +284,7 @@ tools:
 - name: snp_dists
   owner: iuc
   revisions:
+  - 1be3e9c59601
   - f78492521996
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
