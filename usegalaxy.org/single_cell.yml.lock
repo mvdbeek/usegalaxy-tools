@@ -9,6 +9,7 @@ tools:
   - 6adf98e782f3
   - 6f5349dd5c49
   - 7647e5cd1b8b
+  - 7f478b3258ec
   - 95777145cb92
   - 9a169729c9f9
   - 9b0cdb8cf6be
@@ -34,12 +35,13 @@ tools:
   revisions:
   - 277313130da5
   - 2d02d9702d3a
+  - 2e6029e47eb5
   - 3c86f71498bc
   - 5511647110ff
   - a03ff8633507
   - b409c2486353
-  - f87ed6503715
   - d636ce5cde16
+  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -60,12 +62,12 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
+  - 4d8f983cd751
   - 6acb08931836
   - 6f83f8fd381f
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
-  - 4d8f983cd751
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -77,8 +79,8 @@ tools:
   - 80d4e2cac903
   - bf2017df9837
   - c2ef03559dc6
-  - d18e7a6e5cd4
   - c65fce500915
+  - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -86,6 +88,7 @@ tools:
   revisions:
   - 0cb889db0910
   - 32c5c85cbc12
+  - 87d9511249cf
   - c0b037b12765
   - c5ac926c838f
   - e1c3c2f2a834
@@ -108,6 +111,7 @@ tools:
   - 038e32885fec
   - 383dcb0500f9
   - 39e945f0b2c1
+  - 3a9aee9e3551
   - 6f0d0c784f09
   - ee98d611afc6
   tool_panel_section_id: single_cell
@@ -171,6 +175,7 @@ tools:
   owner: iuc
   revisions:
   - 3478133d0f6f
+  - 42a08854eb66
   - 69018f285aa3
   - a6821f856a1e
   - c8434a623268
@@ -179,6 +184,7 @@ tools:
 - name: raceid_trajectory
   owner: iuc
   revisions:
+  - 2581f709c447
   - 2af7c5086a96
   - 44b935f2271b
   - 72979cac22b2
@@ -191,6 +197,7 @@ tools:
   - 7fd39eb52f38
   - 8ed4e80e8799
   - ba64b91ed2b9
+  - bf1e0bdec1db
   - e9283529cba1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -262,6 +269,7 @@ tools:
   - ad70b3552c99
   - bd4a244faeb8
   - e31937baa330
+  - ea91cfd0444e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
@@ -309,6 +317,7 @@ tools:
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
+  - 078aa23c9374
   - 4d13979de6ee
   - 9afcfcd1d215
   - c8391a25dee3

@@ -10,6 +10,7 @@ tools:
   - 3634c90301af
   - 3ec27b4cee7c
   - 7fdd9119cc4f
+  - c9b13d4069c8
   - f35bb9d0c93e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
@@ -107,6 +108,7 @@ tools:
 - name: openms_falsediscoveryrate
   owner: galaxyp
   revisions:
+  - 4138acdeedfb
   - 6ccbf9a2072c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

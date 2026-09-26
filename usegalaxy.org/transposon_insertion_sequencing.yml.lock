@@ -46,5 +46,6 @@ tools:
   revisions:
   - 3f5fc4b09496
   - 4aaabd55eab8
+  - d516fc63b6e5
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing

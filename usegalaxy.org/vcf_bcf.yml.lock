@@ -36,6 +36,7 @@ tools:
   revisions:
   - 5b7120c66efc
   - dd44c3f416c3
+  - ee60203e68d9
   - f0580efedada
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
@@ -378,6 +379,7 @@ tools:
   - 147de996e34f
   - 92182c270ce4
   - a87ae767b01d
+  - b75e49f360de
   - d3081540d175
   - d6dc477167f8
   - e522022137f6
@@ -403,6 +405,7 @@ tools:
   - af36eb5418fe
   - bf235558f2cf
   - e0a856def0b0
+  - e52c0cfa25c4
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_mpileup
@@ -454,6 +457,7 @@ tools:
   revisions:
   - 03e30f06f15f
   - 2f4eef1f0d22
+  - 433f1673736a
   - 5d98fe06e4ae
   - 701e01819e52
   - dfef7a353ed0
@@ -502,6 +506,7 @@ tools:
   - 7fe09ad6a939
   - ceb03be4f31b
   - d9f9294ccccc
+  - f62897ab1008
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_gtcheck

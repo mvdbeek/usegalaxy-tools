@@ -372,6 +372,7 @@ tools:
   owner: bgruening
   revisions:
   - e376ba0fcde0
+  - f2aef0ee9d78
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_ramachandran_protein
@@ -456,6 +457,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 7c0bb0c48a27
+  - cf657dae1dca
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: autodock_vina_prepare_receptor

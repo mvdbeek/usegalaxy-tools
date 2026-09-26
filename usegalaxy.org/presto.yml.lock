@@ -33,6 +33,7 @@ tools:
   owner: iuc
   revisions:
   - 488cd05be723
+  - 7f93403bc705
   - fc1fd003bc80
   - fd8f1ac582bd
   tool_panel_section_id: presto
@@ -50,6 +51,7 @@ tools:
   revisions:
   - 49e7407445c3
   - 7bdff30820bf
+  - eed465eb14a3
   - f47efbc66fad
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -91,6 +93,7 @@ tools:
   - 0af48f0b7eb8
   - 44c980933450
   - 540fcbdac82e
+  - af855eb44091
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_alignsets
