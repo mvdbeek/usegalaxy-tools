@@ -46,6 +46,7 @@ tools:
   revisions:
   - 0669558ebc6b
   - 082d47606949
+  - 0bdd3998a0d7
   - 12c2453e5040
   - 14e7ae9331cb
   - 194108d6da22
@@ -203,6 +204,7 @@ tools:
   - 6223845127ea
   - 659517798cc4
   - 6a726db04d4b
+  - 6b8fd7d6b0ad
   - 7a2092844346
   - 83f146502c0f
   - 88c4aa435ded
@@ -348,6 +350,7 @@ tools:
   - 4bf743518e41
   - 50554f806e16
   - 7c86ceaf523c
+  - aaf823b11580
   - dc8875a13914
   - f5bbd4b34541
   tool_panel_section_id: hyphy

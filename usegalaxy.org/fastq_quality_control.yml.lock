@@ -6,6 +6,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
+  - 2c64fded1286
   - 3d0c7bdf12f5
   - 5ec9f6bceaee
   - e7b2202befea
@@ -27,6 +28,7 @@ tools:
   - 3d93dd18d9f8
   - 5e33b465d8d5
   - 75c93c70d094
+  - 97255f6fdf7e
   - 9a913cdee30e
   - abfd8a6544d7
   - b2f1f75d49c4
@@ -40,6 +42,7 @@ tools:
   - b1cea1b2fcd0
   - e2cf940128d5
   - f0e7deab6518
+  - f86c27295151
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastx_quality_statistics

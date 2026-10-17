@@ -43,6 +43,7 @@ tools:
   owner: devteam
   revisions:
   - 02a5f43cd5d1
+  - 191e43b329f6
   - 77b41c89d856
   - 8979c288aefb
   - e282bc27be9a
@@ -93,6 +94,7 @@ tools:
   owner: iuc
   revisions:
   - 91efc13d3ec1
+  - b1c12a94db6f
   - cdbdce00f5f6
   - ee86b27291b5
   - f4a70882a71b
@@ -103,6 +105,7 @@ tools:
   revisions:
   - 282a658c6569
   - 5f893ed3c5ed
+  - 754f70dd85ae
   - e72c320c17c1
   - e8d84292e510
   tool_panel_section_id: convert_formats

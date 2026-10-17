@@ -60,6 +60,7 @@ tools:
 - name: eggnog_mapper
   owner: galaxyp
   revisions:
+  - 02439eb2b37d
   - 9d1fbff733cf
   - d9c3016f7283
   tool_panel_section_id: proteomics
@@ -95,18 +96,21 @@ tools:
 - name: openms_msgfplusadapter
   owner: galaxyp
   revisions:
+  - 810779f0cf49
   - f5ec766d80cf
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_peptideindexer
   owner: galaxyp
   revisions:
+  - 0693b186f39e
   - d6aca689dd48
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_falsediscoveryrate
   owner: galaxyp
   revisions:
+  - 4138acdeedfb
   - 6ccbf9a2072c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

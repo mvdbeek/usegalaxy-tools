@@ -11,6 +11,7 @@ tools:
   - 57e5d9382f36
   - 9dd5373f6a5a
   - e7242484929c
+  - faa378fa0c81
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: meme_fimo

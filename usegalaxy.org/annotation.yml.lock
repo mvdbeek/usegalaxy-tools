@@ -149,6 +149,7 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
+  - 31763a56f1d7
   - 39b40a9a6296
   - 3f987772e283
   - 438f65cb1d14
@@ -181,6 +182,7 @@ tools:
   revisions:
   - 1f5641a52664
   - 31812e7a1315
+  - 578b60b1279d
   - ded48b36f3b7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -340,6 +342,7 @@ tools:
 - name: freyja_aggregate_plot
   owner: iuc
   revisions:
+  - 0035ac597fa7
   - 0ceb9fb0f4ce
   - 1f89eeba299a
   tool_panel_section_id: annotation
@@ -348,6 +351,7 @@ tools:
   owner: iuc
   revisions:
   - 373c1735d31f
+  - 44c396b0f5e1
   - 9f1660129403
   - cd0484c5f9f1
   - d58a57db7a96
@@ -359,6 +363,7 @@ tools:
   - 4be399803856
   - 52bd683c6d3f
   - 579538ff939d
+  - ec5826d33185
   - eeb5c054ecf8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -400,6 +405,7 @@ tools:
   owner: iuc
   revisions:
   - 1bc5a03faf2e
+  - 3cc3ef448854
   - 51b6ee65ef7f
   - f31125bb85ea
   - f77d7b685bb3
@@ -428,10 +434,11 @@ tools:
   owner: iuc
   revisions:
   - 033755194fe9
+  - 59c8717f6925
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
-  - e95d52d295d7
   - c8ac28e8ac44
+  - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

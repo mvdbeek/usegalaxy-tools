@@ -60,6 +60,7 @@ tools:
   - 0c2907307ba4
   - 177f0621c266
   - 6027ef51ef91
+  - 7566b751e769
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_clipper
@@ -98,6 +99,7 @@ tools:
   owner: devteam
   revisions:
   - 0b7ec11b3c7c
+  - 229caeddb2df
   - 4bedca26c133
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -120,6 +122,7 @@ tools:
   owner: devteam
   revisions:
   - 09a2199cd356
+  - 115f6bb3ae79
   - 822cc1e6274e
   - c885369b207b
   tool_panel_section_id: fasta_fastq
@@ -169,6 +172,7 @@ tools:
   - 4ac14b275aca
   - 5b87038565bb
   - 7861f3b10c68
+  - e06d41f3ed3e
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_groomer
@@ -191,6 +195,7 @@ tools:
   owner: devteam
   revisions:
   - 56389130cb63
+  - 9115b978ce10
   - b05e39b9c170
   - f1dc2a761c30
   tool_panel_section_id: fasta_fastq
@@ -219,6 +224,7 @@ tools:
   owner: devteam
   revisions:
   - 07497255281e
+  - 72494a86e047
   - 7ce1891db6f5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -228,6 +234,7 @@ tools:
   - 2d0d13b0b0f1
   - 33794bdb7fe0
   - b63b2bfb3ea3
+  - fe86fb89562d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer_by_quality
@@ -250,6 +257,7 @@ tools:
   revisions:
   - 516b97a23d7e
   - 859422bcb689
+  - e773f1eb16cf
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_filter_by_length
@@ -309,6 +317,7 @@ tools:
 - name: ucsc_fasplit
   owner: iuc
   revisions:
+  - 1add611a6018
   - 71f649c23021
   - bf04bd405d5b
   tool_panel_section_id: fasta_fastq
@@ -317,6 +326,7 @@ tools:
   owner: iuc
   revisions:
   - 276b4111b253
+  - 43bcc103b1e9
   - 8250ea3a1501
   - a535cf1e5da4
   tool_panel_section_id: fasta_fastq
@@ -350,6 +360,7 @@ tools:
 - name: umi_tools_extract
   owner: iuc
   revisions:
+  - 158e9e91b9fc
   - 6a675c3aa610
   - 9fa7803d1c51
   - f3759eec3018

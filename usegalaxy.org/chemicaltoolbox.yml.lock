@@ -341,6 +341,7 @@ tools:
 - name: openbabel_addh
   owner: bgruening
   revisions:
+  - 6da72bb13a05
   - 6e4b7e0c61a6
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -348,6 +349,7 @@ tools:
   owner: bgruening
   revisions:
   - 4e3b2049a4d3
+  - 6cc6c7ef23df
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: chembl_structure_pipeline
@@ -522,12 +524,14 @@ tools:
   owner: bgruening
   revisions:
   - d7f0ca1f2669
+  - fc2a2989c3b1
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: prepare_ligands_for_docking
   owner: bgruening
   revisions:
   - 5486f7a2b0cb
+  - d9d5aa013bb4
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: sucos_clustering

@@ -17,6 +17,7 @@ tools:
   revisions:
   - 097b44ff88db
   - 967b96c6005a
+  - aa3554e51549
   - ef917c03493c
   - faba8f53524e
   tool_panel_section_id: presto
@@ -43,6 +44,7 @@ tools:
   - 1ed5b0772f98
   - 4049467b8bb8
   - 90315cb06d06
+  - de864d852bce
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_pairseq
@@ -50,6 +52,7 @@ tools:
   revisions:
   - 49e7407445c3
   - 7bdff30820bf
+  - eed465eb14a3
   - f47efbc66fad
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -73,6 +76,7 @@ tools:
   owner: iuc
   revisions:
   - 3364fd7073ca
+  - 852e7ca7f7de
   - c60bd515e46d
   - d1a1b738c119
   tool_panel_section_id: presto

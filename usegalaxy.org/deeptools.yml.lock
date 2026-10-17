@@ -35,6 +35,7 @@ tools:
   - 69264da0ce77
   - 7784523d9743
   - aa200e4f3939
+  - c59e0acb4e0b
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_heatmap
@@ -85,6 +86,7 @@ tools:
   - 32e451def88c
   - bad3ca889618
   - bd7db9e2f2cb
+  - c3dfef526d03
   - e44978659400
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
@@ -153,6 +155,7 @@ tools:
   - 3d211717a775
   - 71aa86af6762
   - 7989c6ddf634
+  - dc53544cb243
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_pe_fragmentsize
@@ -168,6 +171,7 @@ tools:
 - name: deeptools_bam_compare
   owner: bgruening
   revisions:
+  - 09d1214b45d1
   - 268e91e540ee
   - 29451af70c52
   - c89b665b45e4
@@ -178,6 +182,7 @@ tools:
 - name: deeptools_bigwig_average
   owner: bgruening
   revisions:
+  - 3c478e39df6a
   - 4a53856a5b85
   - f6f246438eda
   tool_panel_section_id: deeptools

@@ -7,5 +7,6 @@ tools:
   owner: ecology
   revisions:
   - 4e7c1fb5e894
+  - 7907660cb79b
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration

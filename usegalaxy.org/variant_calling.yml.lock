@@ -25,6 +25,7 @@ tools:
   - 5b80f544c67f
   - 5c7b70713fb5
   - 74aebe30fb52
+  - 908f2c5fedec
   - 9473cd297a76
   - cfcf33df7fc0
   tool_panel_section_id: variant_calling
@@ -33,11 +34,13 @@ tools:
   owner: blankenberg
   revisions:
   - 07e71cf6c8ef
+  - 6be51647d31a
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift
   owner: iuc
   revisions:
+  - 0abc5513f795
   - 2b3e65a4252f
   - 2e497a770bca
   - 5fab4f81391d
@@ -48,6 +51,7 @@ tools:
   revisions:
   - 156b60c1530f
   - a5937157062f
+  - c752293b798c
   - ef2c525bd8cd
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -149,6 +153,7 @@ tools:
 - name: lofreq_viterbi
   owner: iuc
   revisions:
+  - 3330ebe7c0c7
   - 33a416e1659e
   - aa35ee7f3ab2
   - af7e416d8176
@@ -167,6 +172,7 @@ tools:
   owner: iuc
   revisions:
   - 36960e552ddc
+  - 54def72f84b2
   - 71dfde92fd57
   - c39113e2ae34
   - ebcd8649c621
@@ -177,6 +183,7 @@ tools:
   owner: iuc
   revisions:
   - 399b40b2bcab
+  - 4517996e7c99
   - 48ac4d611e92
   - b40213125e88
   - c0b17fc737d4
@@ -267,6 +274,7 @@ tools:
 - name: deepvariant
   owner: iuc
   revisions:
+  - 0a151b5f95e4
   - 63b68fe4af85
   - 918c8b94c8d8
   - 98fe794d2ec0
