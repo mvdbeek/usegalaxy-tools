@@ -25,6 +25,7 @@ tools:
   owner: iuc
   revisions:
   - 0b103d43a2c7
+  - 1f3ae16f3655
   - 620f3b0a1430
   - 824d24bfe8dd
   tool_panel_section_id: presto
@@ -59,6 +60,7 @@ tools:
   - 14e648d05cce
   - 36ad790eda96
   - 98b0b4c22e69
+  - df0797c61790
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_filterseq
@@ -73,6 +75,7 @@ tools:
   owner: iuc
   revisions:
   - 3364fd7073ca
+  - 852e7ca7f7de
   - c60bd515e46d
   - d1a1b738c119
   tool_panel_section_id: presto

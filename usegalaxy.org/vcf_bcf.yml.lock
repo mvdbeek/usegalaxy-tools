@@ -243,6 +243,7 @@ tools:
   owner: iuc
   revisions:
   - 0117c6d2ab96
+  - 1c7dee9f0bf8
   - 277719af4dd7
   - 656a916779fe
   - 6ca7c55a27e8
@@ -365,6 +366,7 @@ tools:
   owner: iuc
   revisions:
   - 348cd212dbad
+  - 506cb7ed2a11
   - 7ca6120cb2a4
   - 7cea7c7bf203
   - b8e9da766b0f
@@ -443,6 +445,7 @@ tools:
   revisions:
   - 01d6b7d6365e
   - 0238f68ad641
+  - 2b7e7aa56527
   - 4891338c6c54
   - 635532ff1ac9
   - 6d35a3780bfd
@@ -454,6 +457,7 @@ tools:
   revisions:
   - 03e30f06f15f
   - 2f4eef1f0d22
+  - 433f1673736a
   - 5d98fe06e4ae
   - 701e01819e52
   - dfef7a353ed0
@@ -486,6 +490,7 @@ tools:
   owner: iuc
   revisions:
   - 4935320a59a8
+  - 4bbdf586aeff
   - 55c0e906c14c
   - 7887b9d94c05
   - 8bb5efd7a3dd

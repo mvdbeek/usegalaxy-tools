@@ -179,6 +179,7 @@ tools:
   - 3e436657dcd0
   - 4dea02886337
   - 69e0806b63a4
+  - 88fecd593368
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: compress_file
@@ -207,6 +208,7 @@ tools:
 - name: ucsc_wigtobigwig
   owner: iuc
   revisions:
+  - 99390cf2f6a9
   - a2f83a375bf2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

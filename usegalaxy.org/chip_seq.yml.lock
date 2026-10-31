@@ -13,6 +13,7 @@ tools:
 - name: cwpair2
   owner: iuc
   revisions:
+  - 9a503d716d81
   - c4b926c9831c
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq

@@ -22,6 +22,7 @@ tools:
   revisions:
   - 2d4a34c00c67
   - 6c26354dabe0
+  - f256f69cecfc
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_digester
@@ -36,6 +37,7 @@ tools:
   revisions:
   - 2107c2f7a5d7
   - 44b121185562
+  - 9019b08f616f
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_mapper

@@ -83,6 +83,7 @@ tools:
   - 1b68acd5ac08
   - 443471b0a27a
   - 4d1637cac794
+  - 724f4328af54
   - 8b822484debc
   - adf9f8d5ab9a
   - bde62c243b7e
@@ -243,6 +244,7 @@ tools:
   - 1682df52c084
   - 1a53edc4b438
   - 315f01a9d2c2
+  - 398c7e90ded2
   - 3ab7af14f1b5
   - 407495139a09
   - 4ecc0ce9d0a2
@@ -295,6 +297,7 @@ tools:
   - adc6137e7c73
   - ae69f6918abe
   - c8547d3993c0
+  - d0f0767072b2
   - daaa56720686
   - e54382561bd4
   - e9821a426d75
@@ -355,6 +358,7 @@ tools:
   - 1c25f305db70
   - 734c66aa945a
   - 8e447b95e6a8
+  - aaf492da76d4
   - adb084b901cc
   - f0ede473a7e8
   - fb17e19b62a4
@@ -376,6 +380,7 @@ tools:
   - b6f5443c4f58
   - ce2fd1edbc6e
   - e10ffa9e0b90
+  - e3d00d324fb7
   - e8639f65c883
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -438,6 +443,7 @@ tools:
   owner: bgruening
   revisions:
   - 03e0da430d44
+  - 1728b4a3895e
   - 24c1cc2dd4a4
   - 3af626081467
   - 945a53c248de

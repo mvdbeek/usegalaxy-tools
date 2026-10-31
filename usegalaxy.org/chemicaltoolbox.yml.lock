@@ -204,6 +204,7 @@ tools:
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
+  - 10d8b43176a9
   - 4d2b77fd7a28
   - fc36cfd19834
   tool_panel_section_id: chemicaltoolbox
@@ -438,6 +439,7 @@ tools:
   owner: bgruening
   revisions:
   - 330514267c57
+  - e1676a9f766b
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_angle
@@ -492,6 +494,7 @@ tools:
   owner: bgruening
   revisions:
   - b2569e22b40c
+  - dd28d21080f3
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_filter
@@ -528,6 +531,7 @@ tools:
   owner: bgruening
   revisions:
   - 5486f7a2b0cb
+  - d9d5aa013bb4
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: sucos_clustering

@@ -10,50 +10,56 @@ tools:
   - 159b04e36791
   - 1c427e24fb79
   - d1f62024a08b
+  - e629753431f5
   tool_panel_section_id: bbtools
   tool_panel_section_label: BBTools
 - name: bbtools_bbmap
   owner: iuc
   revisions:
   - 3171f7f52576
+  - 3f94a2e3d513
   - 517464809c33
   - b394de3cf6e8
-  - 3f94a2e3d513
+  - d758d31ec054
   tool_panel_section_id: bbtools
   tool_panel_section_label: BBTools
 - name: bbtools_bbmerge
   owner: iuc
   revisions:
+  - 1af48f9cc27b
   - 6d084528a6f1
   - 82ced0e47b9d
+  - c04ab3e8c932
   - c05232655d00
-  - 1af48f9cc27b
   tool_panel_section_id: bbtools
   tool_panel_section_label: BBTools
 - name: bbtools_bbnorm
   owner: iuc
   revisions:
+  - 0ed0510b7712
+  - 1baa4ad1ac2f
   - 1ef267476a17
   - 3fc12917bbdb
   - a9329b77db78
-  - 1baa4ad1ac2f
   tool_panel_section_id: bbtools
   tool_panel_section_label: BBTools
 - name: bbtools_callvariants
   owner: iuc
   revisions:
+  - 66b138a2e74c
+  - 68564cf83cb0
   - adec76ebc868
   - ee407fae3ccd
   - f36a69c3729a
-  - 66b138a2e74c
   tool_panel_section_id: bbtools
   tool_panel_section_label: BBTools
 - name: bbtools_tadpole
   owner: iuc
   revisions:
   - 20aef74d20a1
+  - a0299487d224
+  - cbc75076778f
   - e4fb34b79770
   - eaeb387d1244
-  - cbc75076778f
   tool_panel_section_id: bbtools
   tool_panel_section_label: BBTools

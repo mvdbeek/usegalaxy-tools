@@ -7,6 +7,7 @@ tools:
   owner: crs4
   revisions:
   - 111884f0d912
+  - 8096daf9ce73
   - 8a22554cdde2
   - bf68eb663bc3
   - eaee459f3d69
@@ -149,6 +150,7 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
+  - 31763a56f1d7
   - 39b40a9a6296
   - 3f987772e283
   - 438f65cb1d14
@@ -229,6 +231,7 @@ tools:
   - 037a11682176
   - 200c378d85f3
   - 2c68b0c38785
+  - 60a1dad331ec
   - 809dfc93d593
   - ac8250086ac3
   - ba6f87115e13
@@ -267,6 +270,7 @@ tools:
   revisions:
   - 012171ba9fce
   - 42b38f6d9f68
+  - 92390a2cbb12
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: find_nested_alt_orfs
@@ -312,6 +316,7 @@ tools:
   - 1eafcc450052
   - 65c38d020fea
   - eb35257d2e29
+  - f7746d145125
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: clinod
@@ -319,6 +324,7 @@ tools:
   revisions:
   - 4863b1dbe8f0
   - 77cfe958b5ea
+  - b6ea129299ea
   - f61366a4a14e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -327,6 +333,7 @@ tools:
   revisions:
   - 1563b58905f4
   - 554aa2a63f04
+  - b0e8176203e1
   - fa7086274673
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -365,6 +372,7 @@ tools:
 - name: repeatmodeler
   owner: csbl
   revisions:
+  - 4a172d211285
   - 8661b2607b7e
   - fbe22cb3c869
   tool_panel_section_id: annotation
@@ -400,6 +408,7 @@ tools:
   owner: iuc
   revisions:
   - 1bc5a03faf2e
+  - 3cc3ef448854
   - 51b6ee65ef7f
   - f31125bb85ea
   - f77d7b685bb3
@@ -431,7 +440,7 @@ tools:
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
-  - e95d52d295d7
   - c8ac28e8ac44
+  - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

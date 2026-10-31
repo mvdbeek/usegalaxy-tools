@@ -12,6 +12,7 @@ tools:
   - 464b9305180e
   - 6595517c2dd8
   - 6e8d94597139
+  - b6236eb1a50b
   - be25c075ed54
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -33,9 +34,9 @@ tools:
   owner: bgruening
   revisions:
   - 054483e27a35
+  - 468c71dac78a
   - af5eccf83605
   - bfdc6a7ffd3a
-  - 468c71dac78a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: add_input_name_as_column
@@ -140,6 +141,7 @@ tools:
   - 33d61c89fb8d
   - 3a6b78c39dca
   - 83069b38aa85
+  - a8e9456dbead
   - cf34c344508d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -163,6 +165,7 @@ tools:
 - name: filter_tabular
   owner: iuc
   revisions:
+  - 26fc6cf774d4
   - 34d29339abab
   - 4d5aae46f850
   - 557ec8d7087d

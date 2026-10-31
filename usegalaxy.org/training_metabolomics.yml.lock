@@ -5,6 +5,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 252d185267fc
   - 545054b15d7c
   - 6153e8ada1ee
   tool_panel_section_id: metabolomics
@@ -13,6 +14,7 @@ tools:
   owner: lecorguille
   revisions:
   - 11ab2081bd4a
+  - 788a4bac4a11
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_fillpeaks
@@ -55,6 +57,7 @@ tools:
   owner: recetox
   revisions:
   - 357df6c47d92
+  - 360836810cd5
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_formatter
@@ -78,6 +81,7 @@ tools:
 - name: riassigner
   owner: recetox
   revisions:
+  - 3af9c2de8522
   - c702620c22b1
   - f6bf8f1f3224
   tool_panel_section_id: metabolomics
@@ -97,6 +101,7 @@ tools:
 - name: xcms_export_samplemetadata
   owner: lecorguille
   revisions:
+  - 46f13a609b3e
   - 94eb263cfab4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -110,6 +115,7 @@ tools:
   owner: lecorguille
   revisions:
   - 018a9771de28
+  - 773aea6651d2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: idchoice

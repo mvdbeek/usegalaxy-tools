@@ -95,6 +95,7 @@ tools:
 - name: openms_msgfplusadapter
   owner: galaxyp
   revisions:
+  - 810779f0cf49
   - f5ec766d80cf
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
@@ -119,6 +120,7 @@ tools:
 - name: openms_metaprosip
   owner: galaxyp
   revisions:
+  - 5f72a8fa935d
   - 819ed5aae76f
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

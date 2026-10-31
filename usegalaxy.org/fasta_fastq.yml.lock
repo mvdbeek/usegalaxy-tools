@@ -41,6 +41,7 @@ tools:
   owner: iuc
   revisions:
   - 1d8fe9bc4cb0
+  - 4990e6f1348f
   - 65b93b623c77
   - c59d48774d03
   - dbf9c561ef29
@@ -89,6 +90,7 @@ tools:
 - name: fastx_renamer
   owner: devteam
   revisions:
+  - 0ffae348abae
   - 3599f5451ee2
   - b29d37ca9e41
   - f984bb114520
@@ -127,6 +129,7 @@ tools:
 - name: fastq_paired_end_interlacer
   owner: devteam
   revisions:
+  - 060e4a536555
   - 2ccb8dcabddc
   - 3e396e702cea
   - ef49268ee579
@@ -136,6 +139,7 @@ tools:
   owner: devteam
   revisions:
   - 03d57fea6482
+  - 33e27e311d03
   - b7ce72b00e62
   - f3936d0632cb
   tool_panel_section_id: fasta_fastq
@@ -219,6 +223,7 @@ tools:
   owner: devteam
   revisions:
   - 07497255281e
+  - 72494a86e047
   - 7ce1891db6f5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -241,6 +246,7 @@ tools:
   owner: devteam
   revisions:
   - 091ca73f5804
+  - 90e8c76156a7
   - ec0b5076173a
   - f773e98b26cf
   tool_panel_section_id: fasta_fastq
