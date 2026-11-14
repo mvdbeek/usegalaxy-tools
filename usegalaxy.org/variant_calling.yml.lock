@@ -181,6 +181,7 @@ tools:
   - b40213125e88
   - c0b17fc737d4
   - eb22990a2be9
+  - f3b9269e6e70
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth

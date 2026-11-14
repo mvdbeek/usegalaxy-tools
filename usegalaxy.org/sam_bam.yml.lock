@@ -91,6 +91,7 @@ tools:
   - 24c5d43cb545
   - 3a0efe14891f
   - 47035d167365
+  - 8fca6e1eac98
   - fed4aa48ba09
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -105,6 +106,7 @@ tools:
 - name: samtools_reheader
   owner: devteam
   revisions:
+  - 2b901d1b7aef
   - 30388d878f81
   - bb8cfc6f6e0c
   - d7b4851d1971

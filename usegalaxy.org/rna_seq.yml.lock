@@ -11,6 +11,7 @@ tools:
   - 58c35179ebf0
   - 708348a17fa1
   - d6f5fa4ee473
+  - df0082f25f47
   - e827f9aae031
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -26,6 +27,7 @@ tools:
   - a8305cf0c951
   - df0c8d0a5992
   - f2843df56434
+  - fd9902d118e5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
@@ -35,6 +37,7 @@ tools:
   - 26371a1df031
   - 6c19daec423d
   - f4af63aaf57a
+  - f6ff91cb3120
   - fbf98f24097b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -45,6 +48,7 @@ tools:
   - 6f66ae7c5f7a
   - 90d16db017d7
   - a37612abf7f9
+  - ce3c9c1ac7ca
   - ce44c6f2ba38
   - ea04b737afa0
   - f3a5f075498f
@@ -55,6 +59,7 @@ tools:
   owner: iuc
   revisions:
   - 62adf13b86ea
+  - 98fd01004439
   - 9a7c5b6d8f1e
   - 9fd8b69e6e68
   - b47c006d90c5
@@ -69,14 +74,16 @@ tools:
   - 76d290331481
   - 914cfcba0ec8
   - ae618321f34a
+  - cbf488da3b2c
   - cef79931dda5
   - eba36e001f45
-  - cbf488da3b2c
+  - ff365aa70906
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
   owner: bgruening
   revisions:
+  - 0080a42718be
   - 15cd64d7c58b
   - 49121db48873
   - 7fdb9d1591e2
@@ -93,6 +100,7 @@ tools:
   - 54f751e413f4
   - 62c9df8382c2
   - 64be1ac21109
+  - ad7226fac56d
   - e8ac2b53f262
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -102,6 +110,7 @@ tools:
   - 40985510cd98
   - 4f9c4e6566e5
   - 60f888039fb2
+  - a2b65af988d2
   - c971db6f0fe5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -112,6 +121,7 @@ tools:
   - 5ae5c312d718
   - 87c11c05d238
   - ce5d418183c5
+  - e4eb8c4a82f6
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -126,6 +136,7 @@ tools:
   - 43798b4caee0
   - 602de62d995b
   - 8b3e3657034e
+  - 8f51a7500540
   - ef2ad746b589
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -139,6 +150,7 @@ tools:
   - 9a882d108833
   - cd9874cb9019
   - d027d1f4984e
+  - eaeb33f475e9
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
@@ -148,6 +160,7 @@ tools:
   - 4074fc1940e2
   - 44959aa06aeb
   - 5ec75f5dae3c
+  - 6e8618432bea
   - 79de45b5069b
   - 7ed2edc1337f
   - 850f3679b9b4
@@ -215,6 +228,7 @@ tools:
 - name: egsea
   owner: iuc
   revisions:
+  - 183afb27bcf1
   - 31ea4992b948
   - fba1660fb717
   tool_panel_section_id: rna_seq
@@ -232,6 +246,7 @@ tools:
   owner: iuc
   revisions:
   - 2b80a2596064
+  - 5a69f2ff055e
   - 704c401e0afb
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -273,6 +288,7 @@ tools:
   - 3a083c78896e
   - c24765926774
   - d1f7fa5bb3cb
+  - fbba3e57c350
   - fed9d0350d72
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -518,5 +534,6 @@ tools:
   revisions:
   - 298d81e5e138
   - b3f292d9f35d
+  - ecb3e2432f4f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

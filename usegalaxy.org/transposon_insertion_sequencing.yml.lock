@@ -37,6 +37,7 @@ tools:
 - name: transit_gumbel
   owner: iuc
   revisions:
+  - 3b1e4eb22a7c
   - 8fc50fe60127
   - f50807720df1
   tool_panel_section_id: transposon_insertion_sequencing

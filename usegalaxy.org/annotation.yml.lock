@@ -25,6 +25,7 @@ tools:
   revisions:
   - 09855551d713
   - 28433faa6e42
+  - 534814b64234
   - ca6d970d931c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -251,6 +252,7 @@ tools:
   revisions:
   - 02d81b994ef5
   - 4934c0ac6197
+  - 9793bc5d741b
   - adc0645b945c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -267,6 +269,7 @@ tools:
   revisions:
   - 012171ba9fce
   - 42b38f6d9f68
+  - 92390a2cbb12
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: find_nested_alt_orfs
@@ -312,6 +315,7 @@ tools:
   - 1eafcc450052
   - 65c38d020fea
   - eb35257d2e29
+  - f7746d145125
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: clinod
@@ -431,7 +435,7 @@ tools:
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
-  - e95d52d295d7
   - c8ac28e8ac44
+  - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

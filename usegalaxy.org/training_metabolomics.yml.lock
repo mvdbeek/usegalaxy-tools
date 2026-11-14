@@ -37,6 +37,7 @@ tools:
   owner: lecorguille
   revisions:
   - aa252eec9229
+  - ba20f926a460
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_xcmsset
@@ -110,6 +111,7 @@ tools:
   owner: lecorguille
   revisions:
   - 018a9771de28
+  - 773aea6651d2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: idchoice

@@ -38,8 +38,8 @@ tools:
   - 5511647110ff
   - a03ff8633507
   - b409c2486353
-  - f87ed6503715
   - d636ce5cde16
+  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -60,12 +60,12 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
+  - 4d8f983cd751
   - 6acb08931836
   - 6f83f8fd381f
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
-  - 4d8f983cd751
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -77,8 +77,8 @@ tools:
   - 80d4e2cac903
   - bf2017df9837
   - c2ef03559dc6
-  - d18e7a6e5cd4
   - c65fce500915
+  - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -426,6 +426,7 @@ tools:
   owner: iuc
   revisions:
   - 29f5f25b9935
+  - 4f1baeda3aca
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_barcode

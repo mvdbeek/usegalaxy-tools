@@ -69,6 +69,7 @@ tools:
   revisions:
   - 4b347702c4aa
   - 614a63f14adf
+  - 9af11085c5c6
   - ccf4e1d1fcbe
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -93,6 +94,7 @@ tools:
   owner: iuc
   revisions:
   - 91efc13d3ec1
+  - b1c12a94db6f
   - cdbdce00f5f6
   - ee86b27291b5
   - f4a70882a71b

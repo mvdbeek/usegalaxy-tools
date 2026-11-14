@@ -97,6 +97,7 @@ tools:
 - name: mummer_mummerplot
   owner: iuc
   revisions:
+  - 0f42cf7485e8
   - 4fc0cb2ac8ae
   - c0cedc12fcc5
   - e8c60daa41e0

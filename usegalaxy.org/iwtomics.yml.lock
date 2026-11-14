@@ -12,6 +12,7 @@ tools:
 - name: iwtomics_testandplot
   owner: iuc
   revisions:
+  - 6993163b4133
   - 94965e369be4
   tool_panel_section_id: iwtomics
   tool_panel_section_label: IWTomics

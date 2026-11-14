@@ -6,6 +6,7 @@ tools:
 - name: vcffilter
   owner: devteam
   revisions:
+  - 1ce46fc2168a
   - 81972652519c
   - fa24bf0598f4
   tool_panel_section_id: vcf_bcf
@@ -13,6 +14,7 @@ tools:
 - name: vcfdistance
   owner: devteam
   revisions:
+  - 359c94784f55
   - 48e458c721b3
   - 5822b40f3037
   tool_panel_section_id: vcf_bcf
@@ -20,6 +22,7 @@ tools:
 - name: vcfselectsamples
   owner: devteam
   revisions:
+  - 019656c5fb3d
   - 2ba3b87f904f
   - 958b6484a7f1
   tool_panel_section_id: vcf_bcf
@@ -28,6 +31,7 @@ tools:
   owner: devteam
   revisions:
   - 166c4f50525f
+  - 2116f9563368
   - 6f6bf10618d7
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
@@ -269,6 +273,7 @@ tools:
   - 072f606e2e69
   - 21687e35f066
   - 5801eff9ac7e
+  - 5e9fb41c56a4
   - 912a8ff07fc9
   - f0d44631365f
   tool_panel_section_id: vcf_bcf
@@ -277,6 +282,7 @@ tools:
   owner: iuc
   revisions:
   - 1ccf0e7fb4f6
+  - 3c3b4af46dd6
   - 427e353bf26f
   - b76adb2f1c51
   - bdc67eeb0bc9
@@ -321,6 +327,7 @@ tools:
   owner: iuc
   revisions:
   - 3bdc901c18e2
+  - 3eb41c42dad2
   - 582f8b13873d
   - 645f97008839
   - 79064be67dff
@@ -347,6 +354,7 @@ tools:
   - 982bc0e518c8
   - 9ef52d95114b
   - b3b3c060962e
+  - b69c8f031de3
   - d68c43202172
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
@@ -447,6 +455,7 @@ tools:
   - 635532ff1ac9
   - 6d35a3780bfd
   - b2d1b7dda2b7
+  - f1cf96bb95c6
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_plugin_missing2ref
