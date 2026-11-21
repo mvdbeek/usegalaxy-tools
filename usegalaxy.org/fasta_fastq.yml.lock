@@ -34,6 +34,7 @@ tools:
   owner: iuc
   revisions:
   - 01a4ebf1f237
+  - 48e98c53e8f9
   - a27654fc4270
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -76,6 +77,7 @@ tools:
   revisions:
   - 64e9a6afdd0c
   - 7b4468117008
+  - cb57980cefa0
   - ce9cd02d5b88
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -104,6 +106,7 @@ tools:
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 016529f651dc
   - 529bccd5e4a1
   - 567d5b3c52b1
   - d5e9e83cd3d8
@@ -136,6 +139,7 @@ tools:
   owner: devteam
   revisions:
   - 03d57fea6482
+  - 33e27e311d03
   - b7ce72b00e62
   - f3936d0632cb
   tool_panel_section_id: fasta_fastq
@@ -184,6 +188,7 @@ tools:
   revisions:
   - 06934412f56d
   - 10b75444feae
+  - 242f90a25c1d
   - 81a9090d6df3
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -220,6 +225,7 @@ tools:
   revisions:
   - 07497255281e
   - 7ce1891db6f5
+  - cd11b0508361
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer
@@ -241,6 +247,7 @@ tools:
   owner: devteam
   revisions:
   - 091ca73f5804
+  - dac07dd4fbd7
   - ec0b5076173a
   - f773e98b26cf
   tool_panel_section_id: fasta_fastq
@@ -249,6 +256,7 @@ tools:
   owner: devteam
   revisions:
   - 516b97a23d7e
+  - 59a3ca730b16
   - 859422bcb689
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -287,6 +295,7 @@ tools:
 - name: filtlong
   owner: iuc
   revisions:
+  - 0d9cd7b02f14
   - 1f296803dfa3
   - 41b2ad601cf0
   - 8880fb74ef56
@@ -298,11 +307,13 @@ tools:
   revisions:
   - 2f804526f5fd
   - b4c6f054210a
+  - f69501361cec
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: sickle
   owner: iuc
   revisions:
+  - 482fb7008500
   - 6756c87dc2d4
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -310,6 +321,7 @@ tools:
   owner: iuc
   revisions:
   - 71f649c23021
+  - aa95d55b672f
   - bf04bd405d5b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -317,6 +329,7 @@ tools:
   owner: iuc
   revisions:
   - 276b4111b253
+  - 43bcc103b1e9
   - 8250ea3a1501
   - a535cf1e5da4
   tool_panel_section_id: fasta_fastq
@@ -350,6 +363,7 @@ tools:
 - name: umi_tools_extract
   owner: iuc
   revisions:
+  - 158e9e91b9fc
   - 6a675c3aa610
   - 9fa7803d1c51
   - f3759eec3018
@@ -370,12 +384,14 @@ tools:
 - name: umi_tools_group
   owner: iuc
   revisions:
+  - a827e3a209fa
   - d6255614afd7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_regex_finder
   owner: mbernt
   revisions:
+  - 5a6ec4585bc9
   - 9a811adb714f
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

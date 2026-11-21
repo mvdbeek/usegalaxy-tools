@@ -43,6 +43,7 @@ tools:
   owner: devteam
   revisions:
   - 12b570dd0bc5
+  - 14cf0e143a0b
   - 6257ee3b50d3
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
@@ -128,6 +129,7 @@ tools:
   revisions:
   - 690b1d846263
   - 9fd5d91eb91b
+  - cc80a3aca4bf
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfbedintersect
@@ -135,6 +137,7 @@ tools:
   revisions:
   - 9edfe5145ba8
   - aea8e90ad788
+  - e4778e5a5d43
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfannotategenotypes
@@ -190,6 +193,7 @@ tools:
   - 12038f59c0f4
   - 4b796b58938b
   - 8aa9d9b14bcd
+  - 95e370911d4c
   - aa998b9898b1
   - bdfdf5f6e950
   - ed3cfc7d2836
@@ -321,6 +325,7 @@ tools:
   owner: iuc
   revisions:
   - 3bdc901c18e2
+  - 3eb41c42dad2
   - 582f8b13873d
   - 645f97008839
   - 79064be67dff
@@ -336,6 +341,7 @@ tools:
   - a2f8dc22d7c0
   - b17394940c7a
   - c636e58df612
+  - d87658262215
   - ef2cc5ac23bc
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
@@ -410,6 +416,7 @@ tools:
   revisions:
   - 03191140c66a
   - 0dbff46d5a1b
+  - 2776f8e0a1d3
   - 5660b21a0dbd
   - a0c219ecb5e7
   - ce9396ddcb2b

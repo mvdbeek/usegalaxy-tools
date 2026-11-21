@@ -31,6 +31,7 @@ tools:
 - name: augustus_training
   owner: bgruening
   revisions:
+  - 2fdc599f2814
   - 6519ebe25019
   - 7be22100e5e1
   - dc027fa56d55
@@ -431,7 +432,7 @@ tools:
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
-  - e95d52d295d7
   - c8ac28e8ac44
+  - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

@@ -107,6 +107,7 @@ tools:
 - name: openms_falsediscoveryrate
   owner: galaxyp
   revisions:
+  - 4138acdeedfb
   - 6ccbf9a2072c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

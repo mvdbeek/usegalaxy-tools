@@ -62,6 +62,7 @@ tools:
   owner: devteam
   revisions:
   - 06dc50b7b711
+  - 26a85f18dc69
   - 3d873744df7e
   - 92ec40abcdcf
   - c89806670ab9
@@ -100,6 +101,7 @@ tools:
   - 344fc91e1bfd
   - a4a10c7924d1
   - b5c88b7b153e
+  - c4325d32b1a2
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_reheader
@@ -205,11 +207,13 @@ tools:
   revisions:
   - 9b520009db81
   - 9b8feb118f9e
+  - f66e109710bd
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split_tag
   owner: iuc
   revisions:
+  - a0014762e2ee
   - e30af4e78cd3
   - e9b9c489aacc
   tool_panel_section_id: sam_bam
@@ -309,6 +313,7 @@ tools:
   - 5f3ea90dc6ae
   - 6a8febad1f6c
   - a941babb9268
+  - d2f176e331ef
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: revertr2orientationinbam

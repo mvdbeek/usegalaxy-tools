@@ -38,8 +38,8 @@ tools:
   - 5511647110ff
   - a03ff8633507
   - b409c2486353
-  - f87ed6503715
   - d636ce5cde16
+  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -60,12 +60,12 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
+  - 4d8f983cd751
   - 6acb08931836
   - 6f83f8fd381f
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
-  - 4d8f983cd751
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -77,8 +77,8 @@ tools:
   - 80d4e2cac903
   - bf2017df9837
   - c2ef03559dc6
-  - d18e7a6e5cd4
   - c65fce500915
+  - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -174,6 +174,7 @@ tools:
   - 69018f285aa3
   - a6821f856a1e
   - c8434a623268
+  - fb7906aa5791
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
@@ -216,6 +217,7 @@ tools:
   revisions:
   - 2861ca3bfe4d
   - 5c62f39aab8f
+  - 64dd8bb151e1
   - 82bd7bf93454
   - ae467daae2f7
   tool_panel_section_id: single_cell
@@ -262,6 +264,7 @@ tools:
   - ad70b3552c99
   - bd4a244faeb8
   - e31937baa330
+  - ea91cfd0444e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
@@ -379,6 +382,7 @@ tools:
 - name: scanpy_regress_variable
   owner: ebi-gxa
   revisions:
+  - 0bab2ae44e7a
   - 1200b55768ce
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -387,6 +391,7 @@ tools:
   revisions:
   - 282819d09a4f
   - 2cfd0db49bbc
+  - 48f0fb3061b1
   - 7ffaa0968da3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -395,6 +400,7 @@ tools:
   revisions:
   - 7705cc75ac18
   - 8c64a2da3869
+  - fde4c972e7c5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
@@ -426,12 +432,14 @@ tools:
   owner: iuc
   revisions:
   - 29f5f25b9935
+  - 4f1baeda3aca
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_barcode
   owner: iuc
   revisions:
   - d1b34ac42b8f
+  - e188e2c2598b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_fragments
@@ -487,5 +495,6 @@ tools:
   revisions:
   - 883c33ef3372
   - 90e95e9ee190
+  - f66590d0d3af
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

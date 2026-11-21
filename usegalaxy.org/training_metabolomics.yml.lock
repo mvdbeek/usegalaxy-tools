@@ -13,6 +13,7 @@ tools:
   owner: lecorguille
   revisions:
   - 11ab2081bd4a
+  - 788a4bac4a11
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_fillpeaks

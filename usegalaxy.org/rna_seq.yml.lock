@@ -11,6 +11,7 @@ tools:
   - 58c35179ebf0
   - 708348a17fa1
   - d6f5fa4ee473
+  - df0082f25f47
   - e827f9aae031
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -26,6 +27,7 @@ tools:
   - a8305cf0c951
   - df0c8d0a5992
   - f2843df56434
+  - fd9902d118e5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
@@ -35,6 +37,7 @@ tools:
   - 26371a1df031
   - 6c19daec423d
   - f4af63aaf57a
+  - f6ff91cb3120
   - fbf98f24097b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -45,6 +48,7 @@ tools:
   - 6f66ae7c5f7a
   - 90d16db017d7
   - a37612abf7f9
+  - ce3c9c1ac7ca
   - ce44c6f2ba38
   - ea04b737afa0
   - f3a5f075498f
@@ -55,6 +59,7 @@ tools:
   owner: iuc
   revisions:
   - 62adf13b86ea
+  - 98fd01004439
   - 9a7c5b6d8f1e
   - 9fd8b69e6e68
   - b47c006d90c5
@@ -69,14 +74,16 @@ tools:
   - 76d290331481
   - 914cfcba0ec8
   - ae618321f34a
+  - c44f3c61f41c
+  - cbf488da3b2c
   - cef79931dda5
   - eba36e001f45
-  - cbf488da3b2c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
   owner: bgruening
   revisions:
+  - 0080a42718be
   - 15cd64d7c58b
   - 49121db48873
   - 7fdb9d1591e2
@@ -252,6 +259,7 @@ tools:
 - name: pizzly
   owner: iuc
   revisions:
+  - 59bdee6f554c
   - 91ef4a171202
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -321,6 +329,7 @@ tools:
   owner: iuc
   revisions:
   - 04936df18de3
+  - 0cb5796ccfa7
   - 24e94d84adc9
   - 55cf05b65ad5
   - ab87da55fe61
